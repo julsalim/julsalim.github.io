@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #14303F;
+    background-image: url(https://lynnandtonic.com/assets/images/bg-grain-dark.png);
+    background-repeat: round;
+    
+}
+
+.name-1 {
+    font-size: 72px;
+    color: #fff;
+    font-family: CabinetGrotesk-Variable;
+    font-weight: 800;
+    color: #FFB39B;
+    text-align: center;
+    /* margin-bottom: 0; */
+}
+
+.c-lang {
+    width: 50px;
+    height: 50px;
+}
+
+.logos {
+    width: 50px;
+    height: 50px;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+.lang-placeholder {
+
+    width: 80%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
